@@ -1,15 +1,9 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState } from 'react';
 import erisImage from './assets/eris.jpg';
 
 function App() {
   const [luckDragonMode, setLuckDragonMode] = useState(false);
-  const [scrollY, setScrollY] = useState(0);
 
-  useEffect(() => {
-    const handleScroll = () => setScrollY(window.scrollY);
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
 
   const toggleMode = () => {
     setLuckDragonMode(!luckDragonMode);
