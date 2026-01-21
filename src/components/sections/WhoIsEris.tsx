@@ -2,7 +2,7 @@ const WhoIsEris = () => {
     return (
         <section id="who" className="py-24 px-4 relative overflow-hidden">
             <div className="max-w-4xl mx-auto text-center">
-                <h2 className="text-5xl font-black mb-12 text-gray-800">Who is <span className="text-eris-pink underline decoration-wavy decoration-eris-yellow">Eris?</span></h2>
+                <h2 className="text-5xl font-black mb-12 text-gray-800">Who is <span className="text-eris-pink underline decoration-wavy decoration-eris-yellow">Eris The Borzoi?</span></h2>
 
                 <div className="bg-white p-8 rounded-[3rem] shadow-xl border-4 border-eris-cream transform hover:rotate-1 transition-transform duration-500">
                     <p className="text-2xl text-gray-700 leading-loose">

@@ -27,6 +27,13 @@
     0%, 100% { transform: translateY(-5%); }
     50% { transform: translateY(0); }
   }
+
+  --animate-marquee: marquee 20s linear infinite;
+
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-100%); }
+  }
 }
 
 @layer utilities {
