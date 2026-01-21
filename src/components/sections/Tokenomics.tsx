@@ -25,7 +25,7 @@ const Tokenomics = () => {
 
             <div className="mt-16 bg-gray-900 text-white p-6 rounded-2xl max-w-2xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
                 <span className="font-mono text-gray-400">CA:</span>
-                <span className="font-mono font-bold text-lg md:text-xl truncate">Coming Soon</span>
+                <span className="font-mono font-bold text-lg md:text-xl truncate">CUi7Sx2swcTgbNPzsvBSqUqVPo6NsyDoPvRdeW2jpump</span>
                 <button className="bg-eris-green text-green-900 px-4 py-2 rounded-lg font-bold text-sm hover:bg-emerald-300">COPY</button>
             </div>
         </section>
