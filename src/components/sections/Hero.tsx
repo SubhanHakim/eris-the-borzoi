@@ -13,7 +13,8 @@ const Hero = () => {
                         ERIS THE <span className="text-eris-sky">BORZOI</span>
                     </h1>
                     <p className="text-xl md:text-2xl text-gray-600 mb-8 font-medium leading-relaxed max-w-lg mx-auto md:mx-0">
-                        Awkwardly majestic. Wholesome chaos. The luck dragon you didn't know you needed.
+                        Strange creature. Infinitely excited. Content to nap.
+
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
                         <button className="px-8 py-4 bg-gray-900 text-white rounded-2xl text-xl font-bold hover:bg-gray-800 transform hover:-translate-y-1 transition-all shadow-xl hover:shadow-2xl">
