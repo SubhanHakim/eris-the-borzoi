@@ -6,7 +6,6 @@ import WhoIsEris from './components/sections/WhoIsEris';
 import ViralSection from './components/sections/ViralSection';
 import WhyCoin from './components/sections/WhyCoin';
 import Tokenomics from './components/sections/Tokenomics';
-import Roadmap from './components/sections/Roadmap';
 import Community from './components/sections/Community';
 import Footer from './components/layout/Footer';
 
