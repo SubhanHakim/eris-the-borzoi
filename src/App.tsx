@@ -31,36 +31,16 @@ function App() {
 
   return (
     <div className={`min-h-screen grain-bg transition-colors duration-700 ${luckDragonMode ? 'bg-gradient-to-br from-eris-sky/30 via-eris-pink/30 to-eris-yellow/30' : 'bg-eris-white'}`}>
-
-      {/* Navigation */}
       <Navbar luckDragonMode={luckDragonMode} toggleMode={toggleMode} />
-
-      {/* Hero Section */}
       <Hero />
-
-      {/* Marquee */}
       <Marquee />
-
-      {/* Who is Eris? */}
       <WhoIsEris />
-
-      {/* Viral Section */}
       <ViralSection />
-
-      {/* Why a Coin? */}
       <WhyCoin />
-
-      {/* Tokenomics */}
       <Tokenomics />
-
-      {/* Roadmap */}
-      <Roadmap />
-
-      {/* Community / CTA */}
+      {/* <Roadmap /> */}
       <Community />
-
       <Footer />
-
     </div>
   );
 }
