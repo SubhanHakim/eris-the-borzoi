@@ -11,7 +11,7 @@ const Community = () => {
                     </p>
                     <div className="flex flex-wrap justify-center gap-6">
                         <button className="bg-eris-pink text-gray-900 px-8 py-4 rounded-2xl font-bold text-xl hover:bg-white hover:scale-110 transition-all shadow-lg shadow-eris-pink/30">
-                            <a href="#">X Community</a>
+                            <a href="https://x.com/i/communities/2013951530936991842" target="_blank">X Community</a>
                         </button>
                     </div>
                 </div>
